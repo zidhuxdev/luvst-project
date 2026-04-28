@@ -1,0 +1,33 @@
+{
+  "name": "luvst-server",
+  "version": "1.0.0",
+  "description": "Luvst couples app backend server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["couples", "app", "love"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "@aws-sdk/client-s3": "^3.454.0",
+    "@aws-sdk/s3-request-presigner": "^3.454.0",
+    "google-auth-library": "^9.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.3.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
