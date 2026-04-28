@@ -2,7 +2,7 @@ import express from 'express';
 import { OAuth2Client } from 'google-auth-library';
 import jwt from 'jsonwebtoken';
 import { v4 as uuidv4 } from 'uuid';
-import { getUserByEmail, createUser, updateUser } from '../db/users.js';
+import { getUserByEmail, createUser, updateUser } from '../db/index.js';
 
 const router = express.Router();
 const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);

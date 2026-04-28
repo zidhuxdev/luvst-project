@@ -1,7 +1,6 @@
 import express from 'express';
 import { v4 as uuidv4 } from 'uuid';
-import { createConnectionRequest, getConnectionRequestById, acceptConnectionRequest, getPendingRequestForUser } from '../db/connections.js';
-import { updateUser } from '../db/users.js';
+import { createConnectionRequest, getConnectionRequestById, acceptConnectionRequest, getPendingRequestForUser, updateUser } from '../db/index.js';
 
 const router = express.Router();
 

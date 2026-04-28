@@ -1,5 +1,5 @@
 import express from 'express';
-import { getUserByUsername, getUserById, updateUser, getPartnerByUserId } from '../db/users.js';
+import { getUserByUsername, getUserById, updateUser, getPartnerByUserId } from '../db/index.js';
 
 const router = express.Router();
 
